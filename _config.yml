@@ -1,0 +1,124 @@
+# Site
+repository: ryoheikametaka/ryoheikametaka.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Ryohei Kametaka
+title: Full-Stack Geospatial Developer
+# email: under construction
+website: www.github.com/ryoheikametaka/ryoheikametaka.github.io
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: ryoheikametaka
+github_username:  ryoheikametaka
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+# linkedin_username: jameswgrant
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+orcid_username: 0009-0005-1586-0841
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Ryohei and I'm a Software Engineer specialising in geospatial technologies. 
+
+content:
+  - title: Research # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Satellite-Based Disaster Response and Remote Sensing
+        link: github.com/ryoheikametaka/fine
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          As natural disasters such as earthquakes and extreme rainfall become more frequent and severe globally, rapid and accurate damage assessment is vital for saving lives and streamlining recovery efforts. While optical imagery from satellites and UAVs provides intuitive situational awareness, it is often hampered by cloud cover and nighttime conditions. Consequently, Synthetic Aperture Radar (SAR) has gained significant attention as an all-weather, day-and-night observation tool, particularly for flood monitoring.
+
+          During my doctoral studies, I focused on Inundated Area Extraction from Single-Event SAR Imagery during Heavy Rain Disasters. While previous studies have demonstrated the effectiveness of “Coherence” in assessing damage, this approach often fails in emergency scenarios—such as those involving JAXA’s ALOS series—due to the lack of pre-event archive data acquired under identical observation geometries. To address this gap, I developed a methodology integrating sub-aperture decomposition and hotspot analysis. This approach achieved a maximum improvement of approximately 20% in detection accuracy for both agricultural fields and urban structures, compared to conventional binary classification methods for flood estimation.
+
+          Part of this research has been published in the International Journal of Applied Earth Observation and Geoinformation, and my full doctoral dissertation is available via the Tohoku University Online Academic Repository (TOUR). Furthermore, the source code implemented in my dissertation is publicly available on GitHub under the MIT License. My expertise lies in disaster-time damage estimation using SAR imagery, and I remain actively engaged in the latest advancements in satellite remote sensing applied to a broad range of natural disasters, including seismic events.
+
+          - Kametaka, R., Adriano, B., Mas, E., & Koshimura, S. (2025). “Accurate flood extent mapping in suburban areas using a single SAR image: FFT-based artifact removal approach”, International Journal of Applied Earth Observation and Geoinformation, 144, Article 104941. https://doi.org/10.1016/j.jag.2025.104941
+          - Ryohei Kametaka, “Enhancing Flood Mapping Accuracy from a Single SAR Image through Sub-Aperture-Based and Statistical Approaches”, Tohoku University, 2026.
+
+  - title: Research field
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - Multidisciplinary Geosciences
+      - Earth Observation data analysis (Optical, SAR, UAV)
+      - Machine learning
+      - Numerical / Statistical Analysis
+      - Disaster Science
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: NV5 Geospatial Solutions
+        link: nv5geospatialsoftware.com
+        # link_text: boringcompany.com
+        sub_title: Sales Engineer
+        caption: June 2017 - Present
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            We provide licenses for ENVI and IDL, which are essential tools for satellite imagery analysis and high-performance scientific computing.
+            
+            As a Sales Engineer, I am responsible for the entire customer lifecycle—from pre-sales consulting to post-sales technical support. I also lead regular training workshops for our users. Additionally, I apply my expertise in ENVI and IDL to design and implement systems specifically for optical and SAR (Synthetic Aperture Radar) data analysis.
+
+  - title: Education # Title for the section
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - 2026 Mar., D.Eng., Graduate School of Engineering, Tohoku University, Japan
+      - 2015 Mar., M.Eng., Graduate School of Marine Science and Technology, Tokyo University of Marine Science and Technology, Japan
+      - 2013 Mar., B.Eng., Faculty of Marine Technology, Tokyo University of Marine Science and Technology, Japan
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
