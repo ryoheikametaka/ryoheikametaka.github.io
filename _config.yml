@@ -9,7 +9,7 @@ version: 2
 name: Ryohei Kametaka
 title: Full-Stack Geospatial Developer
 # email: under construction
-website: www.github.com/ryoheikametaka/ryoheikametaka.github.io
+website: https://ryoheikametaka.github.io/
 
 # Dark Mode (true/false/never)
 darkmode: false
