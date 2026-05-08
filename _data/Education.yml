@@ -1,0 +1,17 @@
+subject: Education
+listing-order: 1
+icon: "/assets/img/graduation-cap.svg"
+contents:
+  - title: Tohoku University, PhD in Engineering
+    description:
+      - under construction
+      - under construction
+    date: Apr. 2023 - Mar. 2026
+  - title: Tokyo University of Marine Science and Technology, MA in Engineering
+    description:
+      - under construction
+      - under construction
+    date: Apr. 2013 - Mar. 2015
+  - title: Tokyo University of Marine Science and Technology, BA in Electronic Engineering
+    grade: "**GPA**: `3.85`"
+    date: Mar. 2009 - Feb. 2013

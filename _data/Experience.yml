@@ -1,0 +1,10 @@
+subject: Experiences
+listing-order: 2
+icon: "/assets/img/briefcase.svg"
+contents:
+  - title: NV5 Geospatial Solutions, Inc.
+    role: Sales Engineer
+    description:
+      - We provide licenses for ENVI and IDL, which are essential tools for satellite imagery analysis and high-performance scientific computing.
+      - As a Sales Engineer, I am responsible for the entire customer lifecycle—from pre-sales consulting to post-sales technical support. I also lead regular training workshops for our users. Additionally, I apply my expertise in ENVI and IDL to design and implement systems specifically for optical and SAR (Synthetic Aperture Radar) data analysis.
+    date: Jun. 2017 - Ongoing

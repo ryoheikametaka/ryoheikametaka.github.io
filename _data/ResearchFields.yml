@@ -1,0 +1,9 @@
+subject: Research Fields
+listing-order: 5
+icon: "/assets/img/screwdriver-wrench.svg"
+contents:
+  - title: Multidisciplinary Geosciences
+  - title: Earth Observation data analysis (Optical, SAR, UAV)
+  - title: Machine learning
+  - title: Numerical / Statistical Analysis
+  - title: Disaster Science
