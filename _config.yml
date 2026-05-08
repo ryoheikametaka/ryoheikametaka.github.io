@@ -9,12 +9,12 @@ job: "Full-Stack Geospatial Developer"
 #address: Tokyo, Japan
 #email: email@example.com
 #linkedin_username: linkedin
-github_username: ryoheikametaka
+#github_username: ryoheikametaka
 #instagram_username: instagram
 #twitter_username: twitter
 #facebook_username: facebook
 #youtube_username: youtube
-blog_url: https://ryoheikametaka.com/
+#blog_url: https://ryoheikametaka.com/
 
 # If your repo name follows the format "<user-name>.github.io", then leave the below blank.
 # Otherwise, set its value as "/<repo-name>". ex) baseurl: /resume
