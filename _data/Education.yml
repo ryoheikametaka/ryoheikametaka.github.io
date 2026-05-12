@@ -4,14 +4,17 @@ icon: "/assets/img/graduation-cap.svg"
 contents:
   - title: Tohoku University, PhD in Engineering
     description:
-      - under construction
-      - under construction
+      - Conducted research at the [International Research Institute of Disaster Science](https://regidirides.github.io/index.html)
+      - Researched methods for estimating flood inundation damage to farmlands and buildings using a single SAR image
     date: Apr. 2023 - Mar. 2026
   - title: Tokyo University of Marine Science and Technology, MA in Engineering
     description:
-      - under construction
-      - under construction
+      - Conducted research at the [Atmospheric and Environmental Physics Laboratory](http://fuji.u.e.kaiyodai.ac.jp/)
+      - Compared optical properties and radiative fluxes dependent on particle shapes in cirrus clouds.
     date: Apr. 2013 - Mar. 2015
-  - title: Tokyo University of Marine Science and Technology, BA in Electronic Engineering
+  - title: Tokyo University of Marine Science and Technology, BA in Engineering
+    description:
+      - Studied primarily mechanical and electrical/electronic engineering; conducted numerical simulations using Fortran for the graduation thesis.
+      - Gained hands-on experience in the operation and maintenance of marine engines through practical training.
     grade: "**GPA**: `3.85`"
     date: Mar. 2009 - Feb. 2013
